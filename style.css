@@ -1,0 +1,340 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 38px;
+    left: 150px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 160px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 47%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .cmi{
+      margin-top: -15px;
+      font-family: 'Roboto', sans-serif;
+  }
+  .treat{
+      font-size: 14px;
+    margin-top: 2px;
+    }
+
+  .enquire_heading{
+    font-family: 'Roboto', sans-serif;font-weight: bold;
+  }
+  p{
+      font-family: initial;
+  }
+  .appoinment{
+    background-color: #DD5A6A;
+    border-radius: 3.2px;
+    width: 186px;
+    height: 45px;
+    color: white;
+     
+  }
+  .submit{
+    background-color: #DD5A6A;
+    border-radius: 3.2px;
+    width: 100px;
+    height: 45px;
+    color: white;
+  }
+
+  .boneMarrow_p{
+    color: #FFFFFF;
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    /* line-height: 26px; */
+    /* width: 545px; */
+   justify-content: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .rectangle {
+    background-image: linear-gradient(to right, #2ec4b8 , #6078ea); 
+    /* background-image: radial-gradient(#2ec4b8, #6078ea); */
+    border-radius: 4px;
+    /* width: 586px; */
+    height: 95px;
+  }
+  .replacement-of-disea {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    /* line-height: 20px; */
+    text-align: left;
+  }
+  .rectangle_1{
+      background-color: #FFFFFF;
+       border-bottom: 1px solid whitesmoke;
+  }
+  .doctors {
+    color: #22B78E !important;
+    font-family: 'roboto' , sans-serif;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 44px;
+    text-align: left;
+    font-weight: bolder;
+  }
+  .card-title{
+    color: #22B78E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.99px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .dr_name{
+    color: #1D5AA6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1.76px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .md-mrcp-ph-d-cct-le-copy {
+    color: #1D5AA6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    /* letter-spacing: 1.2px;
+    line-height: 3px; */
+    text-align: center;
+  }
+  .dr_rectangle {
+    background-color: #F9F9FF;
+    border-radius: 4px;
+    /* width: 539px; */
+    /* height: 500px; */
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .line{
+    border: 1px solid #22B78E;
+    width: 37px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dr_discription {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    /* line-height: 20px; */
+    padding-left:30px;
+    padding-right:30px;
+    text-align: center  !important;
+   
+  }
+  .know-more {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    text-align: left;
+    background-image: linear-gradient(to right, #2ec4b8 , #6078ea); 
+    border-radius: 4px;
+    width: 129px;
+    height: 49px;
+    text-align: center;
+
+  }
+  .what-are-the-types-o {
+    color: #22B78E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 44px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  li{
+    list-style-image: url('./images/hospital.png');
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .card_box{
+    background-color: #FFFFFF;
+    border: 1px solid #E5EAFF;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+    width: 150px;
+    max-height: 250px;
+   
+  }
+  
+  .card-img{
+    float: left;
+    /* border: 1.12px solid #3ABF9A; */
+    width: 29px;
+    height: 28px;
+    margin-top: 20px;
+  }
+  .card-text{
+    color: #000000;
+ font-family: 'Roboto', sans-serif;
+ font-size: 14px;
+ line-height: 21px;
+ /* width: 198px; */
+ text-align: left;
+ font-weight: bold;
+ margin-top: 25px;
+}
+
+.collapsible-link::before {
+  content: '';
+  width: 14px;
+  height: 2px;
+  background: #1D5AA6;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 1rem;
+  display: block;
+  transition: all 0.3s;
+}
+
+/* Vertical line */
+.collapsible-link::after {
+  content: '';
+  width: 2px;
+  height: 14px;
+  background: #1D5AA6;
+  position: absolute;
+  top: calc(50% - 7px);
+  right: calc(1rem + 6px);
+  display: block;
+  transition: all 0.3s;
+}
+
+.collapsible-link[aria-expanded='true']::after {
+  transform: rotate(90deg) translateX(-1px);
+}
+
+.collapsible-link[aria-expanded='true']::before {
+  transform: rotate(180deg);
+}
+.faq{
+  list-style-image: url('./images/double-tick-indicator.png');
+}
+.faq_heading{
+  color: #1D5AA6;
+ font-size: 18px;
+ font-weight: bold;
+  text-align: left;
+}
+.testimonial_p{
+  font-size: 13px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+
+.aoe-title{
+  text-transform: uppercase;
+      text-align: center;
+    font-weight: 600;
+    color: #19b5fe;
+}
+
+
+/*=================================================== TESTIMONIALS SECTION ==========================================================*/
+
+.testimonials-section{
+  padding: 50px 0px 50px 0px;
+}
+
+.appoinmentbtn{
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 17.14px;
+  text-align: center;
+  background-color: #004498;
+  border-radius: 3.81px;
+  width: 221px;
+  height: 54px;
+}
+footer{
+  background-color:  #272727;
+  height: 200px;
+}
+.Group9_img{
+  width: 25px;
+  height: 25px;
+  margin-left:150px;
+}
+.line-4 {
+  border: 1px solid rgba(255, 255, 255, 0.21);
+  opacity: 0.3701869419642857;
+  width: 1110px;
+  height: 2px;
+}
+
+.aster-cmi-all-right {
+  color: #FFFFFF;
+  font-family: 'roboto';
+  font-size: 14px;
+  letter-spacing: 1.12px;
+  line-height: 17px;
+  text-align: left;
+}
+.testimonial_img{
+  height: 50%;
+  width:50%
+}
+.testi_name{
+  margin-top:20px;
+font-size: 14px;
+font-family: 'roboto';
+font-weight: bold;
+}
+.testi_profile{
+  font-size: 10px;
+  font-family: 'roboto';
+  margin-top: -15px;
+}
+.testi_descripion{
+  font-size: 10px;
+  font-family: 'roboto';
+}
+.testi_card{
+  width:fit-content
+}
+.testi-card-text{
+font-style: italic;
+font-family: 'roboto';
+}
